@@ -83,7 +83,10 @@ public class MainController {
         teaTable.getColumns().add(descriptionColumn);
         teaTable.getColumns().add(flavorColumn);
         teaTable.getColumns().add(quantityColumn);
-
+        ToggleGroup group = new ToggleGroup();
+        jsonRadio.setToggleGroup(group);
+        postgresRadio.setToggleGroup(group);
+        restRadio.setToggleGroup(group);
 
         switchToPostgres();
 
