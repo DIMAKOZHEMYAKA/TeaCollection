@@ -1,7 +1,8 @@
-package potato.dao;
+package org.example.dao;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import potato.models.Tea;
+import org.example.models.Tea;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

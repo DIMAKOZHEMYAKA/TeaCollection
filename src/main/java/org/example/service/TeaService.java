@@ -1,11 +1,12 @@
-package potato.dao;
+package org.example.service;
 
 
-import potato.models.Tea;
+import org.example.dao.TeaDAO;
+import org.example.models.Tea;
 
 import java.util.List;
 
-public class TeaService implements TeaDAO{
+public class TeaService implements TeaDAO {
     private final TeaDAO teaDao;
 
     public TeaService(TeaDAO teaDao) {

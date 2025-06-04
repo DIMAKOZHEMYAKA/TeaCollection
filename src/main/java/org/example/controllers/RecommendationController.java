@@ -1,6 +1,6 @@
-package potato.controllers;
+package org.example.controllers;
 
-import potato.models.Tea;
+import org.example.models.Tea;
 
 import java.util.Map;
 

@@ -1,7 +1,6 @@
-package potato.dao;
-import potato.models.Tea;
+package org.example.dao;
+import org.example.models.Tea;
 
-import java.io.IOException;
 import java.util.List;
 
 public interface TeaDAO {

@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<VBox prefHeight="427.0" prefWidth="899.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="potato.MainController">
+<VBox prefHeight="427.0" prefWidth="899.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.application.MainController">
   <TabPane prefHeight="428.0" prefWidth="578.0">
     <!-- Tab: Классификация -->
     <Tab text="Классификация">

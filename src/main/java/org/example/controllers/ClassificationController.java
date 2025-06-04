@@ -1,4 +1,4 @@
-package potato.controllers;
+package org.example.controllers;
 
 public class ClassificationController {
 

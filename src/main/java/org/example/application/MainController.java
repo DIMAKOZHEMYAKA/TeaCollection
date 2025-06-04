@@ -1,4 +1,4 @@
-package potato;
+package org.example.application;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -9,11 +9,15 @@ import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import potato.dao.*;
-import potato.controllers.ClassificationController;
-import potato.controllers.InventoryController;
-import potato.controllers.RecommendationController;
-import potato.models.Tea;
+import org.example.dao.TeaAPI;
+import org.example.dao.TeaJSON;
+import org.example.dao.TeaSQL;
+import org.example.service.TeaService;
+import org.example.models.Tea;
+import org.example.dao.*;
+import org.example.controllers.ClassificationController;
+import org.example.controllers.InventoryController;
+import org.example.controllers.RecommendationController;
 
 
 import java.sql.*;

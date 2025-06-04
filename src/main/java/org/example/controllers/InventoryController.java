@@ -1,12 +1,10 @@
-package potato.controllers;
+package org.example.controllers;
 
 
 import javafx.collections.ObservableList;
-import potato.models.Tea;
+import org.example.models.Tea;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class InventoryController {
     public void checkInventoryAndNotify(ObservableList<Tea> teaData) throws SQLException {

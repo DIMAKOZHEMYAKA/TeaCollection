@@ -1,4 +1,4 @@
-module potato {
+module org.example {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
@@ -6,8 +6,9 @@ module potato {
     requires java.net.http;
 
 
-    opens potato to javafx.fxml;
-    exports potato;
+    opens org.example.application to javafx.fxml;
+    exports org.example.application;
 
-    exports potato.models to com.fasterxml.jackson.databind;
+    exports org.example.models to com.fasterxml.jackson.databind;
+
 }

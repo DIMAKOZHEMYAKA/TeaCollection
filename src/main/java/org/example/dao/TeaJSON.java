@@ -1,9 +1,9 @@
-package potato.dao;
+package org.example.dao;
 
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import potato.models.Tea;
+import org.example.models.Tea;
 
 
 import java.io.File;
